@@ -2,7 +2,7 @@
 
 Here, the q learning algorithm is implemented using a q table which holds all the states which the agent can be in.
 
-(No of states = size*size*size*size*2 (location of carrier*location of pickup*if the carrier has picked up the client))
+(No of states = size* size* size* size* 2 (location of carrier* location of pickup*if the carrier has picked up the client))
 
 The algorithm picks actions using epsilon-greedy policy.
 The [state,action] pair in the table is updated using the formula:
